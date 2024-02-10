@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML && CSS Toturial</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>HTML && CSS Toturial</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
 	<h1>------HTML------</h1>
-    <h1 id="top headers">headers(h1-h6)</h1>
+	<h1 id="top headers">headers(h1-h6)</h1>
 	<p> use br to do the next line</p>
 	<p>
-	Difference between "br" and "headers": There is a space between headers but no space between br.<br/>
-	Here are some text format things:<br/>
-	Strong:<strong>This is the sample for strong</strong><br/>
-	Em:<em>This is the sample for em</em><br/>
-	Del:<del>This is the sample for del</del><br/>
-	Ins:<ins>This is the sample for ins</ins><br/>
+		Difference between "br" and "headers": There is a space between headers but no space between br.<br />
+		Here are some text format things:<br />
+		Strong:<strong>This is the sample for strong</strong><br />
+		Em:<em>This is the sample for em</em><br />
+		Del:<del>This is the sample for del</del><br />
+		Ins:<ins>This is the sample for ins</ins><br />
 	</p>
-    <h1>div and span(Boxes)</h1>
-	<p>Div will take a row itself. There will be one div per row. <br/>
-	But there are several spans per row. </p>
-    <h1>img</h1>
-	<img src = "images/twitter.png">
+	<h1>div and span(Boxes)</h1>
+	<p>Div will take a row itself. There will be one div per row. <br />
+		But there are several spans per row. </p>
+	<h1>img</h1>
+	<img src="images/twitter.png">
 	<h1>hyperlink</h1>
 	<p>target: self and blank(which will open a new window)</p>
-	<a href = "http://twitter.com/" target = "_blank" >Click here </a><br/>
-	<a href = "images/twitter.png">download the img</a>
-	<a href = "#top headers"> jump to top</a><br/>
+	<a href="http://twitter.com/" target="_blank">Click here </a><br />
+	<a href="images/twitter.png">download the img</a>
+	<a href="#top headers"> jump to top</a><br />
 	<h1>comment</h1>
 	&lt!--text--&gt
 	<h1>table</h1>
 	<p>tr is the row; td is the unit. Note: colspan and row span should be placed in td</p>
-	<table border = "1px">
+	<table border="1px">
 		<tr>
 			<td>11</td>
 			<td>12</td>
@@ -71,16 +73,16 @@
 		</tr>
 	</table>
 	<p> sample for rowspan </P>
-	<table border = "1px">
-		<tr >
-			<td rowspan = "2">11</td>
+	<table border="1px">
+		<tr>
+			<td rowspan="2">11</td>
 			<td>12</td>
 			<td>13</td>
 			<td>14</td>
 			<td>15</td>
 		</tr>
 		<tr>
-			
+
 			<td>22</td>
 			<td>23</td>
 			<td>24</td>
@@ -107,16 +109,16 @@
 			<td>54</td>
 			<td>55</td>
 		</tr>
-		
+
 	</table>
 	<p> sample for colspan </P>
-	<table border = "1px">
+	<table border="1px">
 		<tr>
-			<td colspan = "2">11</td>
+			<td colspan="2">11</td>
 			<td>12</td>
 			<td>13</td>
 			<td>14</td>
-			
+
 		</tr>
 		<tr>
 			<td>21</td>
@@ -146,7 +148,7 @@
 			<td>54</td>
 			<td>55</td>
 		</tr>
-		
+
 	</table>
 	<h1>list</h1>
 	<p> The only thing that can be put inside the ul or ol is li </p>
@@ -162,31 +164,31 @@
 		<li>ordered 2nd</li>
 		<li>ordered 3rd</li>
 	</ol>
-	<p>Custmized list<br/>
-	There are only dt and dd inside dl
+	<p>Custmized list<br />
+		There are only dt and dd inside dl
 	</p>
 	<dl>
 		<dt>first</dt>
 		<dd>customized 1st</dd>
 		<dd>customized 2nd</dd>
-		
+
 	</dl>
 	<h1>form && label</h1>
 	<p>label allows u to hit the word to select the radio or checkbox</p>
 	<form>
-		text:<input type = "text" name = "text message"  value = "please enter the text here:" ><br/>
-		password:<input type = "password" name = "pass"><br/>
-		sex:<input type = "radio" name = "sex"> Male <input type = "radio" name = "sex"> Female <br/>
-		lucky numbers:<input type = "checkbox" name = "luckNumbers"> 1
-					  <input type = "checkbox" name = "luckNumbers"> 2
-					  <input type = "checkbox" name = "luckNumbers"> 3<br/>
-		enter to submit: <input type = "submit" name = "submission" value = "submit"> <br/>
-		enter to reset: <input type = "reset" name = "reset" value = "reset"><br/>
-		Using label for sex: <label for = "sex">Male:</label>
-							 <input type = "radio" id="sex" name = "labelsex">
-							 <label for = "sex2">FeMale:</label>
-							 <input type = "radio" id="sex2" name = "labelsex"><br/>
-		Birthday: 
+		text:<input type="text" name="text message" value="please enter the text here:"><br />
+		password:<input type="password" name="pass"><br />
+		sex:<input type="radio" name="sex"> Male <input type="radio" name="sex"> Female <br />
+		lucky numbers:<input type="checkbox" name="luckNumbers"> 1
+		<input type="checkbox" name="luckNumbers"> 2
+		<input type="checkbox" name="luckNumbers"> 3<br />
+		enter to submit: <input type="submit" name="submission" value="submit"> <br />
+		enter to reset: <input type="reset" name="reset" value="reset"><br />
+		Using label for sex: <label for="sex">Male:</label>
+		<input type="radio" id="sex" name="labelsex">
+		<label for="sex2">FeMale:</label>
+		<input type="radio" id="sex2" name="labelsex"><br />
+		Birthday:
 		<select>
 			<option>1990</option>
 			<option>1991</option>
@@ -195,10 +197,22 @@
 			<option>1994</option>
 			<option>1995</option>
 		</select>
-		<br/>
-		textarea: 
+		<br />
+		textarea:
 		<textarea row="3" col="3"></textarea>
 	</form>
 	<h1>------CSS------</h1>
-  </body>
+	<h1>selectors</h1>
+	<p>there are 4 types of selectors. Check style.css for detail</p>
+	<h1>font and text style</h1>
+	<dl>
+		<dt>example for font</dt>
+		<dd class="fontStyle">example</dd>
+		<dd class="textStyle">example</dd>
+
+	</dl>
+	<h1>complex selectors</h1>
+
+</body>
+
 </html>
