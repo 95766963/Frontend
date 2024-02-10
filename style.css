@@ -5,18 +5,75 @@
 4. *{}
 */
 .fontStyle {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: 100;
     font-style: italic;
 }
+
 /*.fontStyle{style weight size family)
     size and family must be included in the format*/
 .textStyle {
-    color:red;
+    color: red;
     text-align: left;
     text-decoration: line-through;
     text-indent: 2em;
     /*text indent use px or em. (1 em means 1 word) it is a relative unit) */
     line-height: 26px;
+}
+
+/* houdai selector*/
+
+/* this one will choose all the a from deselector*/
+.deselector a {
+    color: yellow;
+}
+
+.deselector p a {
+    color: red;
+}
+
+/*son selector(must be son!!!*/
+.sonselector>a {
+    color: red;
+}
+
+.sonselector>p>a {
+    color: yellow;
+}
+
+/*parralel selector*/
+.paselector>p>a,
+.paselector>div>a {
+    color: red;
+}
+
+/*link selector*/
+.linkselector>p>a:link {
+    color: aqua;
+}
+
+.linkselector>p>a:hover {
+    color: rgb(170, 30, 135);
+}
+
+/*input selector*/
+.inputselector>input:focus {
+    background-color: brown;
+}
+
+/* Background */
+.bg {
+
+    /*background-color: rgba(0, 255, 255, 0.3);*/
+    background-image: url("./images/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-attachment: scroll;
+}
+
+.box {
+    border-style: dotted;
+    border-width: 10px;
+    padding: 5px 50px;
 }
